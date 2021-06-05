@@ -1,0 +1,11 @@
+Question
+nonre_word_list  ['be', 'image', 'buildings', 'flooded', 'entire', 'given', 'How', 'overall', 'road', 'many', 'seen', 'condition', 'What', 'Is', 'of', 'non', 'are', 'the', 'this', 'can', 'in', 'is']
+lengh nonre_word_list  22
+Answer
+nonre_word_list  ['13', '3', '6', '2', 'flooded,non flooded', '17', '9', '35', '7', '16', '27', '18', '23', '10', '42', '50', 'flooded', '25', '22', '31', '21', '28', '19', '4', '36', '14', 'non flooded', '11', '30', '46', '20', '24', '12', '1', 'Yes', '15', '29', '5', 'No', '45', '8']
+lengh nonre_word_list  41
+
+Question Sentence
+lengh nonre_word_list  15
+nonre_word_dict  {'0': 'How many non flooded buildings can be seen in this image ', '1': 'How many buildings can be seen in the image ', '2': 'How many buildings are non flooded in this image ', '3': 'Is the entire road non flooded ', '4': 'How many buildings can be seen in this image ', '5': 'How many buildings are in this image ', '6': 'Is the entire road flooded ', '7': 'What is the condition of road ', '8': 'How many buildings are non flooded ', '9': 'What is the condition of the road in this image ', '10': 'How many buildings are flooded ', '11': 'How many buildings are in the image ', '12': 'How many flooded buildings can be seen in this image ', '13': 'What is the overall condition of the given image ', '14': 'How many buildings are flooded in this image '}
+

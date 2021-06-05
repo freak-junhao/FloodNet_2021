@@ -1,0 +1,46 @@
+image_path: '/data/njh/data/'
+question_path: '/data/njh/pythonProject/results/questions/'
+token_path: '/data/njh/pythonProject/qa_token.json'
+# run_mode: 'train'
+use_npz: False
+image_size: 512
+mean: [0.485, 0.456, 0.406]
+std: [0.229, 0.224, 0.225]
+max_token: 12
+data_workers: 8
+
+# train setting
+LOG_PATH: './results/logs/'
+DEVICES: [0, 1, 2, 3]
+CKPTS_PATH: './results/ckpts/'
+CKPT_EPOCH: 80
+
+MAX_EPOCH: 100
+
+BATCH_SIZE: 24
+EVAL_BATCH_SIZE: 12
+
+NUM_WORKERS: 8
+PIN_MEM: True
+GRAD_NORM_CLIP: -1
+
+# optim
+LR_BASE: 0.0001
+LR_DECAY_LIST: [10, 30, 250]
+LR_DECAY_R: 0.2
+OPT_BETAS: [0.9, 0.98]
+OPT_EPS: 0.000000001
+
+# model
+# pretrained_path: '/root/Downloads/resnet101-63fe2227.pth'
+feature_model: 'se_resnet152'
+WORD_EMBED_SIZE: 300
+USE_GLOVE: True
+HIDDEN_SIZE: 512
+IMG_FEAT_SIZE: 2048
+FLAT_OUT_SIZE: 1024
+FLAT_MLP_SIZE: 512
+FLAT_GLIMPSES: 1
+MULTI_HEAD: 8
+LAYER: 6
+DROPOUT_R: 0.1
